@@ -17,5 +17,6 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
+    ant -Dj2ee.server.home=<app_server_installation_directory>
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
